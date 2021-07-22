@@ -1,8 +1,7 @@
-import Forest.*;
+import Packet1.Person;
 
-public class Test {
-    public static void main(String[] args) {
-        Squirel s1 = new Squirel();
-        Tree t1 = new Tree();
+class Test extends Person{
+    public Test(){
+        name = "TOM";
     }
 }
